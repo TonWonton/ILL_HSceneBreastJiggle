@@ -16,6 +16,7 @@ namespace ILL_HSceneBreastJiggle
 {
 	[BepInProcess(PROCESS_NAME)]
 	[BepInPlugin(GUID, PLUGIN_NAME, VERSION)]
+	[BepInIncompatibility("SVS_HSceneAddOns")]
 	public partial class HSceneBreastJiggle : BasePlugin
 	{
 		/*PLUGIN INFO*/
