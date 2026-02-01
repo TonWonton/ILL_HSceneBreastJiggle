@@ -1,0 +1,12 @@
+﻿{
+	"profiles": {
+		"Aicomi": {
+			"commandName": "Executable",
+			"executablePath": "D:\\Games\\Aicomi\\Aicomi.exe",
+			"workingDirectory": "D:\\Games\\Aicomi",
+			"environmentVariables": {
+				"COMPLUS_ForceENC": "1"
+			}
+		}
+	}
+}
