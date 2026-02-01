@@ -26,4 +26,5 @@ HScene breast jiggle plugin / MOD for `Aicomi` / `アイコミ` and `Samabake Sc
   - Breast weight
 
 ## Notes
-- Not compatible with `SVS_HSceneAddons` since the feature is already included. Choose between `SVS_HSceneAddons` and the other features it includes or standalone (this)
+
+- Not compatible with `SVS_HSceneAddons` since the feature is already included in `SVS_HSceneAddons`. Choose between `SVS_HSceneAddons` and the other features it includes or standalone (this)
