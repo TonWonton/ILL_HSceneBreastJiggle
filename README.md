@@ -1,7 +1,7 @@
-# ILL_HSceneBreastJiggle
+# ILL_HSceneAnimationSpeed
 
 ## Description
-HScene breast jiggle plugin / MOD for `Aicomi` / `アイコミ` and `Samabake Scramble` / `サマバケ！すくらんぶる`. Set custom values for breast base softness, breast tip softness, and breast weight temporarily during HScene.
+HScene animation speed plugin / MOD for `Aicomi` / `アイコミ` and `Samabake Scramble` / `サマバケ！すくらんぶる`. Set custom animation speed during HScenes.
 
 ## Prerequisites
 - [BepInEx Unity Il2Cpp](https://github.com/BepInEx/BepInEx)
@@ -18,13 +18,13 @@ HScene breast jiggle plugin / MOD for `Aicomi` / `アイコミ` and `Samabake Sc
 3. Extract into game folder (.DLL file should be in `/GAME_FOLDER/BepInEx/plugins/`)
 
 ## Features
-- Change the settings of the Magica Cloth physics engine
-- Use default, fixed, or offset values for breast softness and weight
-- Configure values for:
-  - Breast base softness
-  - Breast tip softness
-  - Breast weight
+- Set custom animation speeds for the different states/animations
+  - AC
+    - WLoop min/max speed
+	- SLoop min/max speed
+	- OLoop min/max speed
+  - SVS
+    - Animation loop speed
 
-## Notes
-
-- Not compatible with `SVS_HSceneAddons` since the feature is already included in `SVS_HSceneAddons`. Choose between `SVS_HSceneAddons` and the other features it includes or standalone (this)
+## Note/known issues
+- The orgasm animation loop is still the default speed
