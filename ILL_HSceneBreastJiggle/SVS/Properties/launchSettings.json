@@ -1,6 +1,6 @@
 ﻿{
 	"profiles": {
-		"Aicomi": {
+		"SamabakeScramble": {
 			"commandName": "Executable",
 			"executablePath": "D:\\Games\\SamabakeScramble\\SamabakeScramble.exe",
 			"workingDirectory": "D:\\Games\\SamabakeScramble",
