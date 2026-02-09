@@ -1,5 +1,5 @@
 ﻿using System.Reflection;
-using Plugin = ILL_HSceneBreastJiggle.HSceneBreastJiggle;
+using Plugin = ILL_HSceneBreastJiggle.BreastJigglePlugin;
 
 
 [assembly: AssemblyTitle(Plugin.PLUGIN_NAME)]

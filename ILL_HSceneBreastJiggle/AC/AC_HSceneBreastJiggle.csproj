@@ -40,7 +40,7 @@
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Exec Command="powershell -Command &quot;Stop-Process -Name 'Aicomi'&quot;" ContinueOnError="true" />
 		<Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;D:\Games\Aicomi\BepInEx\plugins\&quot; /s /i /y" />
-		<Exec Condition="'$(Configuration)' == 'Release'" Command="xcopy &quot;$(TargetPath)&quot; &quot;D:\Projects\ILL\AC\Releases\AC_HSceneBreastJiggle\BepInEx\plugins\&quot; /s /i /y" />
+		<Exec Condition="'$(Configuration)' == 'Release'" Command="xcopy &quot;$(TargetPath)&quot; &quot;D:\Projects\ILL\Releases\AC_HSceneBreastJiggle\BepInEx\plugins\&quot; /s /i /y" />
 		<Exec Condition="'$(Configuration)' == 'Debug'" Command="powershell -Command &quot;Start-Process 'D:\Games\Aicomi\Aicomi.exe'&quot;" ContinueOnError="true" />
 	</Target>
 

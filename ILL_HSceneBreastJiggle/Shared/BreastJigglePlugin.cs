@@ -21,7 +21,7 @@ namespace ILL_HSceneBreastJiggle
 	}
 
 
-	public partial class HSceneBreastJiggle : BasePlugin
+	public partial class BreastJigglePlugin : BasePlugin
 	{
 		#region PLUGIN_INFO
 
@@ -29,15 +29,13 @@ namespace ILL_HSceneBreastJiggle
 		public const string COPYRIGHT = "";
 		public const string COMPANY = "https://github.com/TonWonton/ILL_HSceneBreastJiggle";
 
-
-
 		#endregion
 
 
 
 		/*VARIABLES*/
 		//Instance
-		public static HSceneBreastJiggle Instance { get; private set; } = null!;
+		public static BreastJigglePlugin Instance { get; private set; } = null!;
 		private static ManualLogSource _log = null!;
 		private static MagicaPhysicsManager? _magicaPhysicsManager = null!;
 

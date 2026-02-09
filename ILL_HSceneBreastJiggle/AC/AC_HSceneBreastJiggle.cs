@@ -8,20 +8,20 @@ using H;
 using Character;
 using MagicaCloth;
 
-using LogLevel = BepInEx.Logging.LogLevel;
+using Logging = ILL_HSceneBreastJiggle.BreastJigglePlugin.Logging;
 
 
 namespace ILL_HSceneBreastJiggle
 {
 	[BepInProcess(PROCESS_NAME)]
 	[BepInPlugin(GUID, PLUGIN_NAME, VERSION)]
-	public partial class HSceneBreastJiggle : BasePlugin
+	public partial class BreastJigglePlugin : BasePlugin
 	{
 		/*PLUGIN INFO*/
 		public const string PLUGIN_NAME = "AC_HSceneBreastJiggle";
 		public const string PROCESS_NAME = "Aicomi";
 		public const string GUID = "AC_HSceneBreastJiggle";
-		public const string VERSION = "1.0.1";
+		public const string VERSION = "1.0.2";
 
 
 
@@ -67,8 +67,8 @@ namespace ILL_HSceneBreastJiggle
 								}
 								else //Offset
 								{
-									fileBody.bustSoftness = Mathf.Clamp01(originalBaseSoftness + softness.Value);
-									fileBody.bustSoftness2 = Mathf.Clamp01(originalTipSoftness + softness.Value);
+									fileBody.bustSoftness = Mathf.Clamp01(originalBaseSoftness + baseSoftness.Value);
+									fileBody.bustSoftness2 = Mathf.Clamp01(originalTipSoftness + tipSoftness.Value);
 									fileBody.bustWeight = Mathf.Clamp01(originalWeight + softness.Value);
 								}
 								body.UpdateBustShake();
